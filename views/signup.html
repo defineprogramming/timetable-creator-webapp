@@ -1,0 +1,17 @@
+<!-- views/signup.html -->
+{{define "content"}} <!-- Define a content template -->
+<h1>Sign up</h1>
+
+{{if .Error}}  <!-- Use {{if .Error}} to check if there is an error message from controller --> 
+<p style="color:red">{{.Error}}</p>  <!-- Use {{.Error}} to display error message --> 
+{{end}}
+
+<form action="/signup" method="POST">  <!-- Create form with POST method --> 
+    <p>Name: <input type="text" name="name" required></p>  <!-- Create input field for name --> 
+    <p>Email: <input type="email" name="email" required></p>  <!-- Create input field for email --> 
+    <p>Password: <input type="password" name="password" required></p>   <!-- Create input field for password --> 
+    <p><input type="submit" value="Sign up"></p>   <!-- Create submit button --> 
+</form>
+
+<p>Already have an account? <a href="/login">Log in here</a>.</p>   <!-- Link to login route -->  
+{{end}}
