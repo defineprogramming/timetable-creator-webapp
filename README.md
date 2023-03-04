@@ -17,7 +17,7 @@ To run this web app locally, you need to have Go installed on your machine. You 
 
 1. Clone this repository to your local machine using `git clone https://github.com/defineprogramming/timetable-creator-webapp/`.
 2. Navigate to the web-app folder using `cd timetable-creator-webapp`.
-3. Install the required dependencies using `github.com/gorilla/mux.`.
+3. Install the required dependencies using `go get -d github.com/gorilla/mux.`.
 4. Run the main.go file using `go run main.go`.
 5. Open your browser and go to http://localhost:8080 to see the web app in action.
 
