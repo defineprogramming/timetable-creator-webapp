@@ -1,0 +1,10 @@
+<!-- views/layout.html -->
+<html>
+<head>
+    <title>{{.Title}}</title> <!-- Use {{.Title}} to insert title data from controller -->
+    <link rel="stylesheet" href="/static/css/style.css"> <!-- Link to static CSS file -->
+</head>
+<body>
+    {{template "content" .}} <!-- Use {{template "content" .}} to insert content from other template files -->
+</body>
+</html>
