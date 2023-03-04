@@ -15,8 +15,8 @@ This is a simple web app built with Go that allows users to create and view thei
 
 To run this web app locally, you need to have Go installed on your machine. You also need to have a MongoDB database running on your localhost:27017 port.
 
-1. Clone this repository to your local machine using `git clone https://github.com/username/web-app.git`.
-2. Navigate to the web-app folder using `cd web-app`.
+1. Clone this repository to your local machine using `git clone https://github.com/defineprogramming/timetable-creator-webapp/`.
+2. Navigate to the web-app folder using `cd timetable-creator-webapp`.
 3. Install the required dependencies using `go get -d ./...`.
 4. Run the main.go file using `go run main.go`.
 5. Open your browser and go to http://localhost:8080 to see the web app in action.
