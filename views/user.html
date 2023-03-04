@@ -1,0 +1,7 @@
+<!-- views/user.html -->
+{{define "content"}} <!-- Define a content template -->
+<h1>Your Profile</h1>
+<p>Name: {{.User.Name}}</p> <!-- Use {{.User.Name}} to insert user name data from controller -->
+<p>Email: {{.User.Email}}</p> <!-- Use {{.User.Email}} to insert user email data from controller -->
+<a href="/timetable">View your timetable</a> or <a href="/logout">Log out</a>. <!-- Link to other routes -->
+{{end}} <!-- End of content template -->
